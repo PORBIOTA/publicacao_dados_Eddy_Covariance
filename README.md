@@ -3,4 +3,4 @@ Este projecto tem por objectivo desenvolver a documentação de apoio à publica
 
 ## ÍNDICE ##
 
-1. [Introdução] (./introducao.md)
+1. [Introdução](./introducao.md)
