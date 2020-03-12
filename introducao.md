@@ -13,7 +13,7 @@ O ICOS adoptou para padrão de dados para os metadados o padrão **INSPIRE** (ve
 
 O **INSPIRE** (https://inspire.ec.europa.eu/) usa como base a norma **ISO 19115** (da qual é um perfil). A norma **ISO 19115**, por outro lado, pode ser mapeada a outros padrões dados, incluindo o **Ecological Metadata Language (EML)**(https://knb.ecoinformatics.org/#tools/eml). O catálogo https://rdamsc.dcc.ac.uk/msc/m22 mostra o mapeamento entre **ISO 19115** (do qual **INSPIRE** é um perfil) e **EML**.
 
-Recomenda-se, por isso, o uso do padrão **INSPIRE** para dados GEE no PORBIOTA.
+Recomenda-se, por isso, o uso do padrão [**INSPIRE - Environmental monitoring Facilities**](https://inspire.ec.europa.eu/Themes/120/2892) para dados GEE no PORBIOTA.
 
 ## Infraestrutura de publicação de dados
 
@@ -33,13 +33,15 @@ Há online vários guias sobre a publicação de datasets através do Zenodo que
 
 ## Recomendações para a publicação dos datasets
 
-A boa publicação dos dados, cumprindo ao máximo os princípios FAIR, implicam que o dataset:
+A boa publicação dos dados, cumprindo os princípios FAIR, implica que o dataset:
 - use formatos abertos de dados (csv, xml, json);
-- seja bem documentado através de metadados, preferentemente usando um padrão (INSPIRE)
-- seja definida uma licença de publicação dos dados
+- seja bem documentado através de metadados, preferentemente usando um padrão (INSPIRE);
+- seja definida uma licença de publicação dos dados;
 - seja definida uma forma de citação dos dados
 
-Deste modo, um dataset deve ser constituido por três ficheiros
-1. a tabela de dados, em formato **csv**, com o nome `data.csv`
-2. um ficheiro em formato **xml**, com o nome `meta.xml`, que define a estrutura do ficheiro `data.csv`
-3. um ficheiro em formato **xml**, com o nome `metadata.xml`, que contém os metadados
+Deste modo, um dataset deve ser constituido por três ficheiros:
+1. a tabela de dados, em formato **csv**, com o nome `data.csv`;
+2. um ficheiro em formato **csv**, com o nome `meta.csv`, que define a estrutura do ficheiro `data.csv`;
+3. um ficheiro em formato **csv**, com o nome `metadata.csv`, que contém os metadados, em formato INSPIRE.
+
+Os ficheiros **csv** podem ser ser criados por exportação de uma folha de cálculo. No entanto, no futuro próximo os ficheiros `meta` e `metdata` deverão ser convertidos em formato `xml`, com referência ao esquema do padrão respectivo.
