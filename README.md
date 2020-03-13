@@ -4,3 +4,5 @@ Este projecto tem por objectivo desenvolver a documentação de apoio à publica
 ## ÍNDICE ##
 
 1. [Introdução](./introducao.md)
+2. Criação dos ficheiros xml [TODO]
+3. Guia de publicação no Zenodo [TODO]
