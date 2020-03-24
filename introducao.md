@@ -1,7 +1,7 @@
 # Publicação de dados de GEE medidos por Eddy Covariance através do PORBIOTA
 
 ## Introdução
-A publicação de dados de Gases com Efeito de Estufa através do PORBIOTA deverá ser feita com o uso das melhores referêncas e boas práticas relativamente à publicação de dados **open data** e **FAIR**.
+A publicação de dados de Gases com Efeito de Estufa (GEE) através do PORBIOTA deverá ser feita com o uso das melhores referêncas e boas práticas relativamente à publicação de dados **open data** e **FAIR**.
 
 Importa, por isso, identificar quais os padrões de dados e ferramentas utilizados pela respectiva comunidade internacional, sendo que o PORBIOTA se desenvolve num contexto europeu.
 
